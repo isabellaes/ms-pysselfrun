@@ -1,0 +1,11 @@
+@import "./variables/colors";
+@import "./variables/font";
+@import "./pages/homePage";
+@import "./components/header";
+@import "./components/footer";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
