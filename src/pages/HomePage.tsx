@@ -1,8 +1,4 @@
-import Grid from "@mui/material/Grid";
-import Box from "@mui/material/Box";
 import { images, images2 } from "../img";
-import ImageList from "@mui/material/ImageList";
-import ImageListItem from "@mui/material/ImageListItem";
 
 const HomePage = () => {
   return (

@@ -13,9 +13,6 @@ const Header = () => {
             <Link to={"/"}>Hem</Link>
           </li>
           <li>
-            <a href="">Om mig</a>
-          </li>
-          <li>
             <Link to={"/product"}>Produkter</Link>
           </li>
           <li>
