@@ -14,9 +14,48 @@ import image13 from "./assets/unnamed13.jpg";
 import image14 from "./assets/unnamed14.jpg";
 import image15 from "./assets/unnamed15.jpg";
 import image16 from "./assets/unnamed16.jpg";
+interface Product {
+  title: string;
+  productImg: string[];
+  description: string;
+}
 
-const images: string[] = [image1, image2, image16, image13];
+const products: Product[] = [
+  {
+    title: "Mugg",
+    productImg: [image15, image16],
+    description: "Mugg med personlig text, eller namn.",
+  },
+  {
+    title: "Flaska",
+    productImg: [image1, image3],
+    description: "Flaska med personlig text, eller namn.",
+  },
+  {
+    title: "Tygkasse",
+    productImg: [image8, image12, image9],
+    description: "Flaska med personlig text, eller namn.",
+  },
+
+  {
+    title: "Godisask",
+    productImg: [image7],
+    description: "Flaska med personlig text, eller namn.",
+  },
+  {
+    title: "Bokmärke",
+    productImg: [image13],
+    description: "Flaska med personlig text, eller namn.",
+  },
+  {
+    title: "Dekorationer",
+    productImg: [image11],
+    description: "Flaska med personlig text, eller namn.",
+  },
+];
+
+const images: string[] = [image1, image2, image6, image13];
 
 const images2: string[] = [image3, image4, image7, image15, image14];
 
-export { images, images2 };
+export { images, images2, products };

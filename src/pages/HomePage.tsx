@@ -3,9 +3,6 @@ import Box from "@mui/material/Box";
 import { images, images2 } from "../img";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const HomePage = () => {
   return (
@@ -43,57 +40,66 @@ const HomePage = () => {
           labore nemo unde impedit neque veritatis optio necessitatibus
           asperiores, nesciunt nobis illum sunt saepe dolores?
         </p>
-        <div className="img">
-          {images2.flatMap((img) => (
-            <img
-              srcSet={`${img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              src={`${img}?w=164&h=164&fit=crop&auto=format`}
-              alt={img}
-            />
-          ))}
+      </div>
+      <div className="img-box">
+        {images2.flatMap((img) => (
+          <img
+            srcSet={`${img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+            src={`${img}?w=164&h=164&fit=crop&auto=format`}
+            alt={img}
+          />
+        ))}
+      </div>
+      <div className="product-box">
+        <div className="box">
+          <div className="text">
+            <p>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              similique repellat maxime minima aliquam? Praesentium fugit,
+              voluptatum rerum illo, architecto recusandae quis doloremque eius
+              minima quibusdam ex iure earum ipsam?"
+            </p>
+            <p>- Anna</p>
+          </div>
+          <div className="text">
+            <p>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              aliquid accusamus repellat? Excepturi asperiores accusantium in
+              quibusdam esse est modi, nihil ut, incidunt delectus magnam! Modi
+              dolorem eveniet laborum nemo?"
+            </p>
+            <p>- Emma</p>
+          </div>
         </div>
       </div>
 
-      <div className="contact">
-        <div className="social-icons">
+      <div className="info-box">
+        <div>
+          <h3>Beställningsinfo</h3>
           <p>
-            <InstagramIcon className="icon" />
-          </p>
-          <p>
-            <FacebookIcon className="icon" />
-          </p>
-          <p>
-            <i className="bx bxl-tiktok icon" />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            beatae sit natus nesciunt voluptate quibusdam, inventore suscipit
+            ipsum, esse corrupti est animi expedita doloremque, reiciendis earum
+            libero aliquid. Explicabo, similique!
           </p>
         </div>
-        <div className="contact-form">
-          <h1>Kontakta mig</h1>
-          <form>
-            <label htmlFor="fname">First Name</label>
-            <input
-              type="text"
-              id="fname"
-              name="firstname"
-              placeholder="Your name.."
-            />
-
-            <label htmlFor="lname">Last Name</label>
-            <input
-              type="text"
-              id="lname"
-              name="lastname"
-              placeholder="Your last name.."
-            />
-
-            <label htmlFor="subject">Subject</label>
-            <textarea
-              id="subject"
-              name="subject"
-              placeholder="Write something.."
-            ></textarea>
-
-            <input type="submit" value="Submit" />
-          </form>
+        <div>
+          <h3>Kontakt</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repellendus rerum culpa provident accusantium saepe harum maiores
+            amet quasi, veniam necessitatibus nisi perferendis, modi quas
+            tenetur enim expedita deleniti explicabo facere.
+          </p>
+        </div>
+        <div>
+          <h3>Om företaget</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            eveniet enim omnis accusantium ea nobis nihil, quidem veritatis at
+            quibusdam fugit dolor facere adipisci, error perspiciatis itaque
+            distinctio voluptas magnam?
+          </p>
         </div>
       </div>
     </div>
