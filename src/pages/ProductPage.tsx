@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { products } from "../img";
-import Pagination from "@mui/material/Pagination";
-import Stack from "@mui/material/Stack";
+import SlideShowImg from "../components/SlideShowImg";
 
 interface Product {
   title: string;
@@ -11,10 +10,6 @@ interface Product {
 
 const ProductPage = () => {
   const [product, setProducts] = useState<Product>(products[0]);
-  const [page, setPage] = useState(1);
-  const handleChange = (event: React.ChangeEvent<unknown>, value: number) => {
-    setPage(value);
-  };
 
   function onClick(title: string) {
     const product = products.find((product) => product.title === title);
@@ -40,17 +35,10 @@ const ProductPage = () => {
       </aside>
       <main>
         <>
-          <Stack spacing={2}>
-            <img src={product.productImg[page - 1]} alt="" />
-            <Pagination
-              count={product.productImg.length}
-              page={page}
-              onChange={handleChange}
-              hidePrevButton
-              hideNextButton
-              variant="outlined"
-            />
-          </Stack>
+          <SlideShowImg
+            currentImg={product.productImg[0]}
+            images={product.productImg}
+          ></SlideShowImg>
           <div>
             <h2>{product.title}</h2>
             <p>{product.description}</p>
