@@ -12,7 +12,7 @@ const SlideShowImg = (props: Props) => {
     if (props.currentImg) {
       setCurrentImg(props.currentImg);
     }
-  });
+  }, [props.currentImg]);
 
   return (
     <div className="slideShow">
