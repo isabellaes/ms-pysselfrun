@@ -44,17 +44,29 @@ const Header = () => {
         {menuOpen ? (
           <ul>
             <li>
-              <Link to={"/"} style={{ textDecoration: "none" }}>
+              <Link
+                to={"/"}
+                style={{ textDecoration: "none" }}
+                onClick={() => setMenuOpen(false)}
+              >
                 Hem
               </Link>
             </li>
             <li>
-              <Link to={"/product"} style={{ textDecoration: "none" }}>
+              <Link
+                to={"/product"}
+                style={{ textDecoration: "none" }}
+                onClick={() => setMenuOpen(false)}
+              >
                 Produkter
               </Link>
             </li>
             <li>
-              <Link to={"/contact"} style={{ textDecoration: "none" }}>
+              <Link
+                to={"/contact"}
+                style={{ textDecoration: "none" }}
+                onClick={() => setMenuOpen(false)}
+              >
                 Kontakt
               </Link>
             </li>
