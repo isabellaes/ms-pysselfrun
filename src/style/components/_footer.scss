@@ -3,7 +3,11 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: $backgroundColor-Linear;
+
+  background: linear-gradient(
+    $backgroundColor-Linear-second,
+    $backgroundColor-Linear
+  );
   font-family: $fontRegular;
-  height: fit-content;
+  height: 5em;
 }

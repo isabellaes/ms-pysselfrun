@@ -46,26 +46,24 @@ const HomePage = () => {
           />
         ))}
       </div>
-      <div className="product-box">
-        <div className="box">
-          <div className="text">
-            <p>
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-              similique repellat maxime minima aliquam? Praesentium fugit,
-              voluptatum rerum illo, architecto recusandae quis doloremque eius
-              minima quibusdam ex iure earum ipsam?"
-            </p>
-            <p>- Anna</p>
-          </div>
-          <div className="text">
-            <p>
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              aliquid accusamus repellat? Excepturi asperiores accusantium in
-              quibusdam esse est modi, nihil ut, incidunt delectus magnam! Modi
-              dolorem eveniet laborum nemo?"
-            </p>
-            <p>- Emma</p>
-          </div>
+      <div className="review-box">
+        <div className="text">
+          <p>
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+            similique repellat maxime minima aliquam? Praesentium fugit,
+            voluptatum rerum illo, architecto recusandae quis doloremque eius
+            minima quibusdam ex iure earum ipsam?"
+          </p>
+          <p>- Anna</p>
+        </div>
+        <div className="text">
+          <p>
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            aliquid accusamus repellat? Excepturi asperiores accusantium in
+            quibusdam esse est modi, nihil ut, incidunt delectus magnam! Modi
+            dolorem eveniet laborum nemo?"
+          </p>
+          <p>- Emma</p>
         </div>
       </div>
 

@@ -12,28 +12,74 @@ header {
 
     h1 {
       font-family: $fontLogo;
-      font-size: 63px;
-      letter-spacing: 14px;
+      font-size: 23px;
+      letter-spacing: 4px;
       text-align: center;
     }
     p {
-      font-family: $fontRegular;
-      font-size: 33px;
+      font-family: $fontLogo2;
+      font-size: 13px;
       text-align: center;
     }
   }
-
-  nav {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: inline-block;
+    position: relative;
     ul {
-      display: flex;
-      flex-direction: row;
+      display: block;
+      position: absolute;
+      background-color: $backgroundColor-Linear;
+      min-width: 150px;
+      min-height: 10em;
+      right: -15px;
+      margin-top: 20px;
+      padding: 1em;
+      z-index: 1;
       list-style-type: none;
+
+      li {
+        li {
+          padding-left: 10px;
+          font-size: 12px;
+        }
+      }
     }
-    padding: 1em;
-    font-family: $fontRegular;
-    li {
-      padding-left: 10px;
-      font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  header {
+    .logo {
+      h1 {
+        font-size: 43px;
+        letter-spacing: 8px;
+      }
+      p {
+        font-size: 23px;
+      }
+    }
+
+    .desktop {
+      display: block;
+      ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+      }
+
+      li {
+        padding-left: 10px;
+        font-size: 12px;
+        padding: 1em;
+        font-family: $fontRegular;
+      }
+    }
+
+    .mobile {
+      display: none;
     }
   }
 }
