@@ -42,18 +42,6 @@ const ProductPage = () => {
           <div>
             <h2>{product.title}</h2>
             <p>{product.description}</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sit
-              incidunt facere tempora. Voluptates dolorum numquam voluptatem
-              dolore. Dicta vero eum possimus, cupiditate laboriosam ea rem
-              sapiente a repellat commodi.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sit
-              incidunt facere tempora. Voluptates dolorum numquam voluptatem
-              dolore. Dicta vero eum possimus, cupiditate laboriosam ea rem
-              sapiente a repellat commodi.
-            </p>
           </div>
         </>
       </main>

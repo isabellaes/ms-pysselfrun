@@ -15,26 +15,16 @@ const HomePage = () => {
       <div className="text-box">
         <h1>Personliga gåvor, skapade med omsorg</h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam
-          similique illum eligendi numquam quos error, magnam debitis sequi
-          velit, inventore quas vitae minima neque qui laboriosam aspernatur
-          quae voluptas esse. Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit. Amet in accusantium ut error voluptas quia eaque
-          sint adipisci dolorum consequatur. Harum sunt eum soluta natus
-          possimus impedit beatae aspernatur dicta. Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Placeat expedita non at vero dolores.
-          Repellat labore nemo unde impedit neque veritatis optio necessitatibus
-          asperiores, nesciunt nobis illum sunt saepe dolores? Lorem ipsum
-          dolor, sit amet consectetur adipisicing elit. Quibusdam similique
-          illum eligendi numquam quos error, magnam debitis sequi velit,
-          inventore quas vitae minima neque qui laboriosam aspernatur quae
-          voluptas esse. Lorem ipsum dolor, sit amet consectetur adipisicing
-          elit. Amet in accusantium ut error voluptas quia eaque sint adipisci
-          dolorum consequatur. Harum sunt eum soluta natus possimus impedit
-          beatae aspernatur dicta. Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit. Placeat expedita non at vero dolores. Repellat
-          labore nemo unde impedit neque veritatis optio necessitatibus
-          asperiores, nesciunt nobis illum sunt saepe dolores?
+          Vill du ge bort något fint till en vän eller familjemedlem? Eller
+          kanske vill du unna dig något till dig själv? Då har du kommit rätt!
+          Jag skapar gåvor med personliga texter och tryck. allt ifrån en mugg
+          med ditt namn till en tygkasse med en inspirerande eller peppande
+          text! Det finns massor av olika färger och stilar att välja mellan,
+          och önskar du något annat så är det bara kontakta mig så hjälper jag
+          dig att sätta ihop ett skräddarsytt paket! För tillfället har jag
+          ingen online-shop utan det går bra att kontakta mig via
+          kontaktformuläret eller på instagram om du är intresserad av att
+          beställa något av mig 💗
         </p>
       </div>
       <div className="img-box">
@@ -47,23 +37,23 @@ const HomePage = () => {
         ))}
       </div>
       <div className="review-box">
-        <div className="text">
-          <p>
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-            similique repellat maxime minima aliquam? Praesentium fugit,
-            voluptatum rerum illo, architecto recusandae quis doloremque eius
-            minima quibusdam ex iure earum ipsam?"
-          </p>
-          <p>- Anna</p>
-        </div>
-        <div className="text">
-          <p>
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-            aliquid accusamus repellat? Excepturi asperiores accusantium in
-            quibusdam esse est modi, nihil ut, incidunt delectus magnam! Modi
-            dolorem eveniet laborum nemo?"
-          </p>
-          <p>- Emma</p>
+        <h3>Recensioner från kunder</h3>
+        <div className="row">
+          <div className="text">
+            <p>
+              "Fantastiskt fina tryck! Är så nöjd både med flaskan 😍
+              <br></br>
+              Kommer absolut beställa igen!"
+            </p>
+            <p>- Bella</p>
+          </div>
+          <div className="text">
+            <p>
+              "Superfina grejer, så nöjd!! Rekommenderar verkligen att
+              beställa!"
+            </p>
+            <p>- Natalie</p>
+          </div>
         </div>
       </div>
 
@@ -71,28 +61,19 @@ const HomePage = () => {
         <div>
           <h3>Beställningsinfo</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-            beatae sit natus nesciunt voluptate quibusdam, inventore suscipit
-            ipsum, esse corrupti est animi expedita doloremque, reiciendis earum
-            libero aliquid. Explicabo, similique!
+            Kontakta mig via dm på instagram, eller via formuläret nedan om du
+            vill beställa något av mig!
           </p>
         </div>
         <div>
           <h3>Kontakt</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repellendus rerum culpa provident accusantium saepe harum maiores
-            amet quasi, veniam necessitatibus nisi perferendis, modi quas
-            tenetur enim expedita deleniti explicabo facere.
-          </p>
+          <p>Du når mig lättast via instagram eller mejl!</p>
         </div>
         <div>
           <h3>Om företaget</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-            eveniet enim omnis accusantium ea nobis nihil, quidem veritatis at
-            quibusdam fugit dolor facere adipisci, error perspiciatis itaque
-            distinctio voluptas magnam?
+            Pysselfrun är mitt eget företag som startades 2024. Jag skapar
+            personliga gåvor till dig, eller någon du håller kär!
           </p>
         </div>
       </div>

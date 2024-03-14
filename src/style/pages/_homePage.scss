@@ -5,6 +5,7 @@
     $backgroundColor-Linear,
     $backgroundColor-Linear-second
   );
+  text-align: center;
   .img-grid {
     display: flex;
     flex-direction: row;
@@ -46,6 +47,7 @@
     p {
       padding: 1em;
       font-family: $fontRegular;
+      text-align: center;
     }
   }
   .img-box {
@@ -82,7 +84,12 @@
   .homepage-container {
     .review-box {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
+      .row {
+        display: flex;
+        flex-direction: row;
+        min-height: 30vh;
+      }
     }
 
     .info-box {

@@ -5,15 +5,15 @@ const ContactForm = () => {
   return (
     <div className="form-container">
       <div className="social-icons">
-        <p>
+        <a href="https://www.instagram.com/pysselfrun/">
           <InstagramIcon className="icon" />
-        </p>
-        <p>
+        </a>
+        <a href="https://www.facebook.com/pysselfrun">
           <FacebookIcon className="icon" />
-        </p>
-        <p>
+        </a>
+        <a href="https://www.tiktok.com/@pysselfrun">
           <i className="bx bxl-tiktok icon" />
-        </p>
+        </a>
       </div>
       <div className="contact-form">
         <form>
